@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(110deg, #0000ff, #228b22)
+}
+
+h1, h5, p, li {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+#image-1 {
+  width: 250px;
+  float: right;
+  transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+}
+
+#image-2 {
+  width: 750px;
+  text-align: center;
+  -webkit-transition:-webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+}
+
+#image-2:hover {
+  -webkit-transform: rotate (360deg);
+  transform:rotate(360deg);
+}
+
+
+#image-3 {
+  width: 250px;
+  float: left;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+
+.header {
+  font-size: 50px
+}
